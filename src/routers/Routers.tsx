@@ -5,13 +5,13 @@ import { Route, Routes } from 'react-router-dom';
 function Routers() {
   return (
     <Routes>
-      <Route path='./' element={<Home />} />
-      <Route path='./cart' element={<Cart />} />
-      <Route path='./shop/:id' element={<ProductDetail />} />
-      <Route path='./shop' element={<Shop />} />
-      <Route path='./login' element={<Login />} />
-      <Route path='./register' element={<Register />} />
-      <Route path='./checkout' element={<Checkout />} />
+      <Route path='/' element={<Home />} />
+      <Route path='/cart' element={<Cart />} />
+      <Route path='/shop/:id' element={<ProductDetail />} />
+      <Route path='/shop' element={<Shop />} />
+      <Route path='/login' element={<Login />} />
+      <Route path='/register' element={<Register />} />
+      <Route path='/checkout' element={<Checkout />} />
     </Routes>
   );
 }
