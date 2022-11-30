@@ -1,0 +1,7 @@
+export * from './Home';
+export * from './Cart';
+export * from './Shop';
+export * from './ProductDetail';
+export * from './Login';
+export * from './Register';
+export * from './Checkout';
