@@ -31,7 +31,7 @@ export function Header(props: HeaderProps) {
         <div className='container text-[1.3rem]  mx-auto flex justify-between items-center '>
           {/* Left menu */}
 
-          <div className='menu-left'>
+          <div className='menu-left px-5'>
             <ul className='flex  px-0 '>
               {nav_links.map((item: { name: string; path: string }) => (
                 <li className='mr-5 hover:text-red-500 ' key={item.name}>
